@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Layout/Header';
 import Contacts from './components/Contacts';
 import AddContact from './components/AddContact';
-import About from './components/Pages/About';
+// import About from './components/Pages/About';
 import axios from 'axios';
 
 import './App.css';
@@ -53,20 +53,13 @@ export class App extends Component {
 
   render() {
     return (
-      <Router>
         <div className="App">
           <div className="container">
             <Header />
-            <Route exact path="/" basename="/contact-list" render={props => (
-              <React.Fragment>
-                <AddContact addContact={this.addContact}/>
-                <Contacts contacts={this.state.contacts} toggleFavorite={this.toggleFavorite} delContact={this.delContact}/>
-              </React.Fragment>
-            )} />
-            <Route path="/about" component={About} />
+            <AddContact addContact={this.addContact}/>
+            <Contacts contacts={this.state.contacts} toggleFavorite={this.toggleFavorite} delContact={this.delContact}/>
           </div>
         </div>
-      </Router>
     );
   }
 }
