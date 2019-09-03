@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/contact-list/static/css/main.5131ae9c.chunk.css",
+    "main.js": "/contact-list/static/js/main.dfdd4392.chunk.js",
+    "main.js.map": "/contact-list/static/js/main.dfdd4392.chunk.js.map",
+    "runtime~main.js": "/contact-list/static/js/runtime~main.49108178.js",
+    "runtime~main.js.map": "/contact-list/static/js/runtime~main.49108178.js.map",
+    "static/js/2.1999828c.chunk.js": "/contact-list/static/js/2.1999828c.chunk.js",
+    "static/js/2.1999828c.chunk.js.map": "/contact-list/static/js/2.1999828c.chunk.js.map",
+    "index.html": "/contact-list/index.html",
+    "precache-manifest.ebbb4ac6055b93df36b27fde065af095.js": "/contact-list/precache-manifest.ebbb4ac6055b93df36b27fde065af095.js",
+    "service-worker.js": "/contact-list/service-worker.js",
+    "static/css/main.5131ae9c.chunk.css.map": "/contact-list/static/css/main.5131ae9c.chunk.css.map",
+    "static/media/omnes-light.otf": "/contact-list/static/media/omnes-light.3651b9da.otf",
+    "static/media/omnes-regular.otf": "/contact-list/static/media/omnes-regular.dc5866ee.otf"
+  }
+}
