@@ -63,7 +63,7 @@ export class App extends Component {
                 <Contacts contacts={this.state.contacts} toggleFavorite={this.toggleFavorite} delContact={this.delContact}/>
               </React.Fragment>
             )} />
-            <Route path="/about" component={About} />
+            <Route path="/about" basename="/contact-list" component={About} />
           </div>
         </div>
       </Router>
